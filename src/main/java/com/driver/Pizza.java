@@ -28,6 +28,7 @@ public class Pizza {
        this.chesePrice = 80;
        this.toppingsprice = isVeg == true ? 70 : 120;
        this.bag = 20;
+       this.bill = bill;
 
     }
 
