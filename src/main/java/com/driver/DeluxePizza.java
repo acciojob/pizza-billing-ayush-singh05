@@ -9,7 +9,6 @@ public class DeluxePizza extends Pizza {
         // your code goes here
         if(isVeg){
            this.addExtraCheese();
-           this.getPrice();
            this.addExtraToppings();
         }
     }

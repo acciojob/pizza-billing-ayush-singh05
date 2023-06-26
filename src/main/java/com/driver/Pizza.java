@@ -28,6 +28,7 @@ public class Pizza {
        this.chesePrice = 80;
        this.toppingsprice = isVeg == true ? 70 : 120;
        this.bag = 20;
+
     }
 
     public int getPrice(){
@@ -74,6 +75,6 @@ public class Pizza {
             bill += "Paperbag Added: "+ bag + "\n";
         }
         bill += "Total Price: "+ price;
-        return bill;
+        return this.bill;
     }
 }
